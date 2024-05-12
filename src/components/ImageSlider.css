@@ -1,0 +1,54 @@
+.imageSlider {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: #bbb;
+}
+
+.hiddenImage {
+    display: none;
+}
+
+.arrow {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    filter: drop-shadow(0px 0px 5px #555);
+}
+
+.arrowLeft {
+    left: 10%;
+}
+
+.arrowRight {
+    right: 10%;
+}
+
+.dotContainer {
+    position: absolute;
+    bottom:10%;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dotCurrent {
+    background-color: white;
+}
